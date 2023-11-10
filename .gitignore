@@ -1,5 +1,15 @@
-/node_modules
-/build
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+# Hardhat files
+cache
+artifacts
+
+#IDE files
 /.fleet
 /.idea
 /.vscode
