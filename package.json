@@ -4,8 +4,8 @@
   "description": "DApp build using hardhat",
   "main": "index.js",
   "scripts": {
-    "create:contract": "touch $1.sol",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:web": "cd ./web && npm run dev"
   },
   "repository": {
     "type": "git",
