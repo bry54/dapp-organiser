@@ -1,0 +1,29 @@
+{
+  "name": "dapp-organiser",
+  "version": "1.0.0",
+  "description": "DApp build using hardhat",
+  "main": "index.js",
+  "scripts": {
+    "create:contract": "touch $1.sol",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bry54/dapp-organiser.git"
+  },
+  "keywords": [
+    "DApp",
+    "Etherim",
+    "Blockchain"
+  ],
+  "author": "Brian Paidamoyo Sithole",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bry54/dapp-organiser/issues"
+  },
+  "homepage": "https://github.com/bry54/dapp-organiser#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.19.0"
+  }
+}
